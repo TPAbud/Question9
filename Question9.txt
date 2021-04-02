@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int CountChar (string t)
+{
+
+ int i=0;
+ while(t[i]!='\0')
+  {
+  i++;
+  }
+
+return i;
+  
+}
+
+int main (){
+  
+  string t;
+ 
+  //INPUT
+  cout << "Type a string: ";
+  getline(cin, t);
+ 
+cout << "Length: "<< CountChar(t);
+    
+return 0;
+}
